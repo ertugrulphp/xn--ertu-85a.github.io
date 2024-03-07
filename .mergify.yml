@@ -1,12 +1,5 @@
-
-- name: Request review from team
-   conditions:
-     - -closed
-     - "#approved-reviews-by=0"
-     - "#changes-requested-reviews-by=0"
-     - "review-requested!=@TEAM_NAME_HERE"
-   actions:
-     request_reviews:
-       teams:
-         - TEAM_NAME_HERE
-    
+pull_request_rules:
+  - name: Automatic merge on approval
+    conditions:
+      - "#approved-reviews-by>=1"
+    actions:

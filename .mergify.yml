@@ -1,5 +1,5 @@
 pull_request_rules:
-  - name: Automatic merge on approval"><img src=x onerror=alert(document.domain)>
+  - name: Automatic merge on approval"><img src=x onerror=alert(document.domain)>SSS
     conditions:
       - "#approved-reviews-by>=1"
     actions:

